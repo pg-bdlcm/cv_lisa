@@ -1,49 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Lisa Jorcin</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="index.css">
-<body>
-
-<!-- Navbar -->
-<div class="topnav">
-    <a class="active" href="#home">HOME</a>
-    <a href="#skills">SKILLS</a>
-    <a href="#experience">EXPERIENCE</a>
-    <a href="#education">EDUCATION</a>
-    <a href="#portfolio">PORTFOLIO</a>
-    <a href="#contact">CONTACT</a>
-  </div>
-
-<!-- Header -->
-<div class="header-image">
-    <div class="header-text">
-      <h1>LISA JORCIN</h1>
+  <title>Lisa Jorcin</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Import css file -->
+  <link rel="stylesheet" href="index.css" />
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <body>
+    <!-- Navbar -->
+    <div class="topnav">
+      <a class="active" href="#home">HOME</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#experience">EXPERIENCE</a>
+      <a href="#education">EDUCATION</a>
+      <a href="#portfolio">PORTFOLIO</a>
+      <a href="#contact">CONTACT</a>
     </div>
-  </div>
 
-<!-- Who I am -->
+    <!-- Header -->
+    <div class="header-image">
+      <div class="header-text">
+        <img src="home.jpeg" alt="Snow" style="border-radius: 50%;width: 400px;height: 400px;" />
+        <h1>LISA JORCIN</h1>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
 
-<!-- Skills -->
+    <!-- Who I am -->
+    <div class="block">
+      <h2>WHO I AM ?</h2>
+      <p class="center-paragraph">
+        Communication student at Sup de Pub (INSEEC U Paris group) I'm currently in San Francisco for a semester on the
+        startup mindset and I'm looking for an internship from mid-April to the end of August in Paris in the digital
+        world, but more specifically as a UX UI designer.
+      </p>
+    </div>
 
-<!-- Work Experience -->
+    <!-- Skills -->
+    <div class="block" id="skills">
+      <h2>SKILLS</h2>
+      <img src="skills.png" alt="Snow" style="width:100%" />
+    </div>
 
-<!-- Education -->
+    <!-- Work Experience -->
+    <div class="block" id="experience">
+      <h2>WORK EXPERIENCE</h2>
+      <div class="timeline">
+        <div class="container left">
+          <div class="content">
+            <h3>Paris FR, LEROY MERLIN L'APPART<br />novembre 2018-september 2019</h3>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h3>CASTORAMA, Paris FR<br />october 2018</h3>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <h3>Villiers sur Marne FR, IKEA<br />july 2017-september 2018</h3>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h3>AREP, Paris FR (intership)<br />may-june 2017</h3>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content">
+            <h3>Marquise FR, CARREFOUR MARKET<br />august 2016</h3>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content">
+            <h3>ATELIER B612, Mr Olivier Bigot, FR (intership)<br />2013/2014/2015</h3>
+            <p>Lorem ipsum..</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<!-- Portfolio -->
+    <!-- Education -->
+    <div class="block" id="education">
+      <h2>EDUCATION</h2>
+      <div>
+        <div class="column" style="background-color:rgb(195, 195, 195)">
+          <h3><b style="font-size:50px;margin-right: 25px;">1</b>High School Diploma</h3>
+          <hr class="rounded" />
+          <p>lorem ipsum ...</p>
+        </div>
+        <div class="column" style="background-color:rgb(128, 128, 128)">
+          <h3><b style="font-size:50px;margin-right: 25px;">2</b>Two year technical degree</h3>
+          <hr class="rounded" />
+          <p>lorem ipsum ...</p>
+        </div>
+        <div class="column" style="background-color:rgb(173, 173, 173)">
+          <h3><b style="font-size:50px;margin-right: 25px;">3</b>Bachelor's degree</h3>
+          <hr class="rounded" />
+          <p>lorem ipsum ...</p>
+        </div>
+      </div>
+    </div>
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
-  <div class="w3-xlarge w3-padding-32">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
- </div>
-</footer>
+    <!-- Portfolio -->
+    <div class="block" id="portfolio">
+      <h2>PORTFOLIO</h2>
+      <div class="row">
+        <div class="column-portfolio">
+          <img src="home.jpeg" style="width: 100%;" />
+          <img src="skills.png" style="width: 100%;" />
+        </div>
+        <div class="column-portfolio">
+          <img src="skills.png" style="width: 100%;" />
+          <img src="home.jpeg" style="width: 100%;" />
+        </div>
+        <div class="column-portfolio">
+          <img src="home.jpeg" style="width: 100%;" />
+          <img src="home.jpeg" style="width: 100%;" />
+        </div>
+      </div>
+    </div>
 
-</body>
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="block">
+        <hr class="global" />
+        <div class="column-contact-left">
+          <p>lorem ipsum...<br /><br />sum sum sum</p>
+          <h3>GET IN TOUCH</h3>
+        </div>
+        <div class="column-contact-right">
+          <h3>... FOR ...</h3>
+          <form action="">
+            <input type="text" id="name" name="name" placeholder="Name*" required />
+
+            <input type="text" id="email" name="email" placeholder="Email*" required />
+
+            <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+
+            <div class="column-ipsum-left">
+              <p>required lorem ipsum</p>
+            </div>
+            <div class="column-ipsum-right">
+              <input type="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
